@@ -47,7 +47,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
 
-  matrix[0][2] = "Lemons"
+  matrix[0][2] = new_value
   matrix
   #new_value = matrix[0][2] = "Onions"
   #new_value
