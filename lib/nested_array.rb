@@ -18,7 +18,7 @@ CONVENTIONAL_PRODUCE = [
 
 def assembled_matrix
   storage_room = [
-    CONVENTIONAL_PRODUCE.sort,
+    CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE.sort,
   ]
   return storage_room
